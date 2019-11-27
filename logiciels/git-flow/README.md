@@ -16,3 +16,18 @@ Il faudra alors répondre à quelques questions concernant les conventions de no
 
 **_Il est recommandé d'utiliser les valeurs par défaut !_**
 
+## Fonctionnalités (Features)
+
+* Développe des nouvelles fonctionnalités pour notre prochaine version
+* Existe généralement uniquement dans les dépôts des développeurs
+
+### Commencer une fonctionnalité
+
+_Le développement d'une fonctionnalité commence à partir de la branche 'develop'_
+
+On la démarre donc avec la commande :
+
+`git flow feature start MYFEATURE`
+
+Cette commande crée une nouvelle branche de fonctionnalité basée sur `develop` et fait un switch automatique sur la nouvelle branche.
+
