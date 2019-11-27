@@ -31,3 +31,15 @@ On la démarre donc avec la commande :
 
 Cette commande crée une nouvelle branche de fonctionnalité basée sur `develop` et fait un switch automatique sur la nouvelle branche.
 
+### Terminer une fonctionnalité
+
+_Terminer le développement d'une fonctionnalité effectue les opérations suivantes :_
+
+* Fusionne `MYFEATURE` dans `develop`
+* Supprime la branche `MYFEATURE`
+* Switch sur la branche `develop`
+
+La commande est :
+
+`git flow feature finish MYFEATURE`
+
