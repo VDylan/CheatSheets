@@ -103,3 +103,18 @@ La commande pour terminer notre livraison est :
 
 :warning: **_N'oubliez pas de pousser vos étiquettes avec `git push --tags`_**
 
+## Correctifs (Hotfix)
+
+* Les correctifs sont utiles quand il est nécessaire de corriger immédiatement l'état incorrect de la version en production  
+* Ils peuvent se baser sur l'étiquette de la branche `master` indiquant la version en prodution
+
+### Commencer un hotfix
+
+Comme pour les autres commandes, un hotfix est commencé de la manière suivante :
+
+`git flow hotfix start VERSION [BASENAME]`
+
+ici, le paramètre `VERSION` indique le nom de la future release corrigée.
+
+Il est aussi possible, si besoin, de spécifier à quelle release s'appliquera le hotfix.
+
