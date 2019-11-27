@@ -126,3 +126,6 @@ On tape la commande suivante afin de terminer un hotfix :
 
 `git flow hotfix finish VERSION`
 
+## Rappel commandes
+
+![Git flow commands](./images/git-flow-commande.png)
