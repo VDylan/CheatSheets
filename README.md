@@ -1,4 +1,4 @@
-![Relative date](https://img.shields.io/date/1574726400?label=Created) ![GitHub last commit](https://img.shields.io/github/last-commit/sinhast/CheatSheets)
+![Relative date](https://img.shields.io/date/1574726400?label=Created) ![GitHub last commit](https://img.shields.io/github/last-commit/sinhast/CheatSheets?label=Last%20commit)
 
 # Cheatsheet personnel
 
