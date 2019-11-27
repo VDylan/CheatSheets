@@ -86,3 +86,20 @@ Et nous pouvons aussi suivre une livraison sur un serveur distant en utilisant :
 
 `git flow release track RELEASE`
 
+### Terminer une livraison
+
+Finir une livraison est une étapes majeures de cette méthode.
+
+Plusieurs actions sont alors réalisées :
+
+* Fusionne la branche de livraison dans la branche `master`
+* Etiquette la livraison par son nom
+* Fusionne la livraison dans la branche `develop`
+* Supprime la branche de livraison
+
+La commande pour terminer notre livraison est :
+
+`git flow release finish RELEASE`
+
+:warning: **_N'oubliez pas de pousser vos étiquettes avec `git push --tags`_**
+
