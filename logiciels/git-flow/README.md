@@ -43,3 +43,9 @@ La commande est :
 
 `git flow feature finish MYFEATURE`
 
+### Publier une fonctionnalité
+
+Si jamais vous développez une fonctionnalité en collaboration alors publiez la sur le serveur distant afin qu'elle puisse être utilisée par d'autres utilisaeurs grâce à la commande suivante :
+
+`git flow feature publish MYFEATURE`
+
