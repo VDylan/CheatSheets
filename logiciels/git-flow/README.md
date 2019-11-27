@@ -59,3 +59,30 @@ Mais nous pouvons aussi suivre une fonctionnalité sur le serveur distant en uti
 
 `git flow feature track MYFEATURE`
 
+## Livraison (Release)
+
+* Préparation de la sortie d'une nouvelle version de production
+* Permet les corrections de bugs mineurs et la préparation des métadonnées de la release
+
+### Commencer une livraison
+
+Pour commencer une livraison, on créer une branche basée sur la branche de développement avec la commande :
+
+`git flow release start RELEASE [BASE]`
+
+**_Vous pouvez si besoin ajouter le paramètre `[BASE]`, il faut pour cela mettre le hash d'un commit à partir duquel commencera la livraison._**
+
+**_Ce commit doit faire partie de la branche de développement._**
+
+✴️ ✴️ ✴️ ✴️ ✴️
+
+Il est préférable de publier la branche de livraison après l'avoir créée afin de permettre aux autres développeurs de commiter dessus.
+
+De la même manière que pour les fonctionnalités, on tuilise la commande :
+
+`git flow release publish RELEASE`
+
+Et nous pouvons aussi suivre une livraison sur un serveur distant en utilisant :
+
+`git flow release track RELEASE`
+
