@@ -49,3 +49,13 @@ Si jamais vous développez une fonctionnalité en collaboration alors publiez la
 
 `git flow feature publish MYFEATURE`
 
+### Récupérer une fonctionnalité publiée
+
+Afin de récupérer une fonctionnalité publiée par un autre utilisateur sur un serveur distant il faut faire :
+
+`git flow feature pull origin MYFEATURE`
+
+Mais nous pouvons aussi suivre une fonctionnalité sur le serveur distant en utilisant :
+
+`git flow feature track MYFEATURE`
+
