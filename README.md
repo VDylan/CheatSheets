@@ -18,4 +18,4 @@ Toutes les informations seront centralisées dans ce repo pour plus de facilité
 
 ## Logiciels
 
-* [Git Flow](tree/master/logiciels/git-flow)
+- [Git Flow](CheatSheets/tree/master/logiciels/git-flow)
